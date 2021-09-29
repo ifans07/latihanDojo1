@@ -1,0 +1,32 @@
+@media (max-width: 1000px){
+    .content-wrapper{
+        flex-wrap: wrap;
+    }
+    .content-item{
+        width: 50%;
+        margin-bottom: 100px;
+    }
+}
+@media (max-width: 670px){
+    .copy-container h1{
+        font-size: 60px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+    .copy-container h2{
+        font-size: 42px;
+    }
+    .content-wrapper{
+        flex-direction: column;
+    }
+    .content-item{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    input, textarea{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+}
