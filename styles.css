@@ -9,7 +9,6 @@ li{
 }
 
 .header{
-    width: 100%;
     height: 90px;
     background-color: #26d0c9;
     color: #fff;
@@ -71,7 +70,6 @@ input, textarea{
     background-color: #dee7ec;
 }
 .footer{
-    width: 100%;
     color: #fff;
     background-color: #26d0c9;
     padding: 40px;
