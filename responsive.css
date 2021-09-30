@@ -25,6 +25,7 @@
     }
     input, textarea{
         width: 100%;
+        padding: 10px;
     }
     .header-list li{
         display: none;
@@ -38,11 +39,15 @@
     .footer-list li{
         float: left;
         margin-right: 20px;
+        font-size: 14px;
     }
     .footer{
         height: 80px;
     }
     .header-logo{
         float: none;
+    }
+    .contact-form p{
+        font-size: 12px;
     }
 }
