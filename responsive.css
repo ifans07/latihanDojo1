@@ -1,4 +1,4 @@
-@media (max-width: 1000px){
+@media all and (max-width: 1000px){
     .content-wrapper{
         flex-wrap: wrap;
     }
@@ -7,7 +7,7 @@
         margin-bottom: 100px;
     }
 }
-@media (max-width: 670px){
+@media all and (max-width: 670px){
     .copy-container h1{
         font-size: 60px;
         line-height: 60px;
