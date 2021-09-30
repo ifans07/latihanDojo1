@@ -16,23 +16,25 @@ li{
 
 .header{
     height: 90px;
+    width: 100%;
     background-color: #26d0c9;
     color: #fff;
+    transition: all 05s;
 }
 .header-logo{
-    float: left;
+    float: left;  
     line-height: 90px;
     font-size: 36px;
-    margin-right: 40px;
 }
 .header-list{
     float: right;
+    line-height: 90px;
 }
 .header-list li{
     float: left;
-    line-height: 90px;
     padding: 0 20px;
     cursor: pointer;
+    transition: all 0.5s;
 }
 .main{
     padding: 100px 0;
@@ -93,4 +95,12 @@ input, textarea{
 }
 .footer-list li{
     margin-bottom: 20px;
+}
+
+a .menu-icon{
+    line-height: 90px;
+    font-size: 25px;
+    color: #fff;
+    float: right;
+    display: none;
 }

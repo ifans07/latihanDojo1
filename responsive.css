@@ -14,7 +14,7 @@
         margin-bottom: 20px;
     }
     .copy-container h2{
-        font-size: 42px;
+        font-size: 40px;
     }
     .content-wrapper{
         flex-direction: column;
@@ -26,9 +26,6 @@
     input, textarea{
         width: 100%;
         padding: 10px;
-    }
-    .header-list li{
-        display: none;
     }
     .footer-logo{
         float: none;
@@ -43,11 +40,15 @@
     }
     .footer{
         height: 80px;
-    }
-    .header-logo{
-        float: none;
+        padding: 20px 0;
     }
     .contact-form p{
-        font-size: 12px;
+        font-size: 10px;
+    }
+    .header-list{
+        display: none;
+    }
+    a .menu-icon{
+        display: block;
     }
 }
