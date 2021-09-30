@@ -14,7 +14,7 @@
         margin-bottom: 20px;
     }
     .copy-container h2{
-        font-size: 40px;
+        font-size: 38px;
     }
     .content-wrapper{
         flex-direction: column;
@@ -50,5 +50,20 @@
     }
     a .menu-icon{
         display: block;
+    }
+}
+@media all and (max-width: 300px){
+    .copy-container h2{
+        font-size: 36px;
+    }
+}
+@media all and (max-width: 280px){
+    .copy-container h2{
+        font-size: 34px;
+    }
+}
+@media all and (max-width: 260px){
+    .copy-container h2{
+        font-size: 32px;
     }
 }

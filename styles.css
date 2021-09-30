@@ -19,7 +19,7 @@ li{
     width: 100%;
     background-color: #26d0c9;
     color: #fff;
-    transition: all 05s;
+    transition: all 03s;
 }
 .header-logo{
     float: left;  
@@ -34,7 +34,7 @@ li{
     float: left;
     padding: 0 20px;
     cursor: pointer;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 .main{
     padding: 100px 0;
